@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./vendor/bootstrap-4.3.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Date and time -->
+    <p id="date-time"></p>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Aeria&Go</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="form-inline my-2 my-lg-0">
+            <a class="btn btn-info mr-2" href="./pages/sign-up.html">Sign Up</a>
+            <a class="btn btn-success" href="./pages/log-in.html">Log In</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container d-flex justify-content-around">
+          <div>
+            <h1 class="display-4">Aeria&Go</h1>
+            <p class="lead">Flight reservations in a easy way...</p>
+            <p>
+              <a class="btn btn-info btn-lg" href="#" role="button"
+                >Booking now »</a
+              >
+            </p>
+          </div>
+
+          <img height="350px" src="./images/plane.jpg" alt="plane" />
+        </div>
+      </div>
+      <!-- Bg-Video -->
+      <video autoplay muted loop class="bg-video">
+        <source src="./videos/video.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="./vendor/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

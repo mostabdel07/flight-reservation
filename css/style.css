@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-title {
+    text-align: center;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.registration-form {
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #eee;
+    max-width: 420px;
+}
+
+
+.login-form {
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #eee;
+    max-width: 420px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    padding: .5rem;
+}
+
+#date-time {
+    text-align: center;
+    padding: .5rem;
+    background-color: #ffe8a9;
+    font-weight: 600;
+}
+
+.bg-video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
